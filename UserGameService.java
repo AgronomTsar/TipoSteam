@@ -7,4 +7,5 @@ public class UserGameService extends AbstractService<UserGame>{
     public UserGameService(Dao<UserGame, Integer> dao) {
         super(dao);
     }
+
 }
