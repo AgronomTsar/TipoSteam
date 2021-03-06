@@ -7,4 +7,5 @@ public class UserService extends AbstractService<User>{
     public UserService(Dao<User, Integer> dao) {
         super(dao);
     }
+
 }
