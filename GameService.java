@@ -6,5 +6,6 @@ import com.steamnonesteam.model.Game;
 public class GameService extends AbstractService<Game>{
     public GameService(Dao<Game, Integer> dao) {
         super(dao);
+
     }
 }

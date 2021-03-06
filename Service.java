@@ -23,4 +23,5 @@ public interface Service<T extends Model>{
     default void delete (T model) throws SQLException {
         dao().delete(model);
     }
+
 }

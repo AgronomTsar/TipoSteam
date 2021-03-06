@@ -26,6 +26,7 @@ public class LibraryService {
 //    public String saveLibrary(int gameId){
 //
 //    }
+
     public void deleteLibraryByUserIdGameId(int userId,int gameId) throws SQLException {
         ArrayList<UserGame> library= (ArrayList<UserGame>) libraryDao.queryForEq("gameId",gameId);
         ObjectMapper om=new ObjectMapper();

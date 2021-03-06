@@ -8,4 +8,5 @@ public class UserGameService extends AbstractService<UserGame>{
         super(dao);
     }
 
+
 }

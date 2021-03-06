@@ -9,6 +9,7 @@ public abstract class AbstractService<T extends Model> implements Service<T> {
         this.dao = dao;
     }
     @Override
+
     public Dao<T, Integer> dao() {
         return dao;
     }
